@@ -1,0 +1,7 @@
+indicator_name: Annual growth rate of real GDP per employed person
+indicator_number: 8.2.1
+computation_units: Percentage
+source_active_1: true
+source_organisation_1: NISR
+source_url_1: "https://statistics.gov.rw"
+reporting_status: complete
