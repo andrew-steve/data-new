@@ -1,1 +1,269 @@
-Year,Value
+Year,Value,GeoCode,Observation status,Unit multiplier,UNIT_MEASURE,SERIES
+2014,2.3,,Normal value,Units,Percent,"Personal transfers, received (% of GDP)"
+2015,2.4,,Normal value,Units,Percent,"Personal transfers, received (% of GDP)"
+2016,2.5,,Normal value,Units,Percent,"Personal transfers, received (% of GDP)"
+2017,2.4,,Normal value,Units,Percent,"Personal transfers, received (% of GDP)"
+2018,3.0,,Normal value,Units,Percent,"Personal transfers, received (% of GDP)"
+2019,2.8,,Normal value,Units,Percent,"Personal transfers, received (% of GDP)"
+2020,3.1,,Normal value,Units,Percent,"Personal transfers, received (% of GDP)"
+2021,3.4,,Normal value,Units,Percent,"Personal transfers, received (% of GDP)"
+2022,3.6,,Normal value,Units,Percent,"Personal transfers, received (% of GDP)"
+2023,3.9,,Normal value,Units,Percent,"Personal transfers, received (% of GDP)"
+2024,4.2,,Normal value,Units,Percent,"Personal transfers, received (% of GDP)"
+2014,15.2,,Normal value,Units,Percent,"Debt service on external debt, total (% exports and primary income)"
+2015,6.8,,Normal value,Units,Percent,"Debt service on external debt, total (% exports and primary income)"
+2016,9.0,,Normal value,Units,Percent,"Debt service on external debt, total (% exports and primary income)"
+2017,12.3,,Normal value,Units,Percent,"Debt service on external debt, total (% exports and primary income)"
+2018,19.8,,Normal value,Units,Percent,"Debt service on external debt, total (% exports and primary income)"
+2019,41.7,,Normal value,Units,Percent,"Debt service on external debt, total (% exports and primary income)"
+2020,23.8,,Normal value,Units,Percent,"Debt service on external debt, total (% exports and primary income)"
+2021,17.5,,Normal value,Units,Percent,"Debt service on external debt, total (% exports and primary income)"
+2022,18.4,,Normal value,Units,Percent,"Debt service on external debt, total (% exports and primary income)"
+2023,20.5,,Normal value,Units,Percent,"Debt service on external debt, total (% exports and primary income)"
+2024,30.6,,Normal value,Units,Percent,"Debt service on external debt, total (% exports and primary income)"
+2014,87.9,,Normal value,Units,Kenyan Shillings to US Dollars,"Official exchange rate (LCU per US$, period average annual)"
+2015,98.7,,Normal value,Units,Kenyan Shillings to US Dollars,"Official exchange rate (LCU per US$, period average annual)"
+2016,101.5,,Normal value,Units,Kenyan Shillings to US Dollars,"Official exchange rate (LCU per US$, period average annual)"
+2017,103.4,,Normal value,Units,Kenyan Shillings to US Dollars,"Official exchange rate (LCU per US$, period average annual)"
+2018,101.3,,Normal value,Units,Kenyan Shillings to US Dollars,"Official exchange rate (LCU per US$, period average annual)"
+2019,102.1,,Normal value,Units,Kenyan Shillings to US Dollars,"Official exchange rate (LCU per US$, period average annual)"
+2020,106.6,,Normal value,Units,Kenyan Shillings to US Dollars,"Official exchange rate (LCU per US$, period average annual)"
+2021,109.9,,Normal value,Units,Kenyan Shillings to US Dollars,"Official exchange rate (LCU per US$, period average annual)"
+2022,117.9,,Normal value,Units,Kenyan Shillings to US Dollars,"Official exchange rate (LCU per US$, period average annual)"
+2023,139.9,,Normal value,Units,Kenyan Shillings to US Dollars,"Official exchange rate (LCU per US$, period average annual)"
+2024,134.8,,Normal value,Units,Kenyan Shillings to US Dollars,"Official exchange rate (LCU per US$, period average annual)"
+2014,73.1,,Normal value,Units,Index,Commodity Prices (Export/import)
+2015,76.0,,Normal value,Units,Index,Commodity Prices (Export/import)
+2016,78.8,,Normal value,Units,Index,Commodity Prices (Export/import)
+2017,75.5,,Normal value,Units,Index,Commodity Prices (Export/import)
+2018,68.0,,Normal value,Units,Index,Commodity Prices (Export/import)
+2019,68.0,,Normal value,Units,Index,Commodity Prices (Export/import)
+2020,74.9,,Normal value,Units,Index,Commodity Prices (Export/import)
+2021,73.3,,Normal value,Units,Index,Commodity Prices (Export/import)
+2022,75.3,,Normal value,Units,Index,Commodity Prices (Export/import)
+2023,71.4,,Normal value,Units,Index,Commodity Prices (Export/import)
+2024,67.9,,Normal value,Units,Index,Commodity Prices (Export/import)
+2015,6.8,,Normal value,Units,Percent,Bank nonperforming loans to total gross loans (%)
+2016,9.1,,Normal value,Units,Percent,Bank nonperforming loans to total gross loans (%)
+2017,10.6,,Normal value,Units,Percent,Bank nonperforming loans to total gross loans (%)
+2018,12.0,,Normal value,Units,Percent,Bank nonperforming loans to total gross loans (%)
+2019,12.0,,Normal value,Units,Percent,Bank nonperforming loans to total gross loans (%)
+2020,11.5,,Normal value,Units,Percent,Bank nonperforming loans to total gross loans (%)
+2021,14.3,,Normal value,Units,Percent,Bank nonperforming loans to total gross loans (%)
+2022,13.8,,Normal value,Units,Percent,Bank nonperforming loans to total gross loans (%)
+2023,12.3,,Normal value,Units,Percent,Bank nonperforming loans to total gross loans (%)
+2024,16.2,,Normal value,Units,Percent,Bank nonperforming loans to total gross loans (%)
+2014,-5.1,,Normal value,Units,Percent,Overall Fiscal Balance (% of GDP):
+2015,-7.8,,Normal value,Units,Percent,Overall Fiscal Balance (% of GDP):
+2016,-6.4,,Normal value,Units,Percent,Overall Fiscal Balance (% of GDP):
+2017,-6.8,,Normal value,Units,Percent,Overall Fiscal Balance (% of GDP):
+2018,-7.1,,Normal value,Units,Percent,Overall Fiscal Balance (% of GDP):
+2019,-7.1,,Normal value,Units,Percent,Overall Fiscal Balance (% of GDP):
+2020,-7.6,,Normal value,Units,Percent,Overall Fiscal Balance (% of GDP):
+2021,-8.4,,Normal value,Units,Percent,Overall Fiscal Balance (% of GDP):
+2022,-6.3,,Normal value,Units,Percent,Overall Fiscal Balance (% of GDP):
+2023,-5.6,,Normal value,Units,Percent,Overall Fiscal Balance (% of GDP):
+2024,-5.3,,Normal value,Units,Percent,Overall Fiscal Balance (% of GDP):
+2014,73.1,,Normal value,Units,Index,Commodity Prices (Export/import)
+2015,76.0,,Normal value,Units,Index,Commodity Prices (Export/import)
+2016,78.8,,Normal value,Units,Index,Commodity Prices (Export/import)
+2017,75.5,,Normal value,Units,Index,Commodity Prices (Export/import)
+2018,68.0,,Normal value,Units,Index,Commodity Prices (Export/import)
+2019,68.0,,Normal value,Units,Index,Commodity Prices (Export/import)
+2020,74.9,,Normal value,Units,Index,Commodity Prices (Export/import)
+2021,73.3,,Normal value,Units,Index,Commodity Prices (Export/import)
+2022,75.3,,Normal value,Units,Index,Commodity Prices (Export/import)
+2023,71.4,,Normal value,Units,Index,Commodity Prices (Export/import)
+2024,67.9,,Normal value,Units,Index,Commodity Prices (Export/import)
+2014,9.7,,Normal value,Units,Percent,Unemployment rate
+2016,7.4,,Normal value,Units,Percent,Unemployment rate
+2019,13.7,,Normal value,Units,Percent,Unemployment rate
+2020,7.2,,Normal value,Units,Percent,Unemployment rate
+2021,6.1,,Normal value,Units,Percent,Unemployment rate
+2022,5.8,,Normal value,Units,Percent,Unemployment rate
+2024,9.1,,Normal value,Units,Percent,Unemployment rate
+2014,5.0,,Normal value,Units,Months,Total reserves in months of imports
+2015,4.8,,Normal value,Units,Months,Total reserves in months of imports
+2016,5.0,,Normal value,Units,Months,Total reserves in months of imports
+2017,5.0,,Normal value,Units,Months,Total reserves in months of imports
+2018,5.3,,Normal value,Units,Months,Total reserves in months of imports
+2019,5.5,,Normal value,Units,Months,Total reserves in months of imports
+2020,4.9,,Normal value,Units,Months,Total reserves in months of imports
+2021,5.2,,Normal value,Units,Months,Total reserves in months of imports
+2022,4.0,,Normal value,Units,Months,Total reserves in months of imports
+2023,3.4,,Normal value,Units,Months,Total reserves in months of imports
+2024,4.4,,Normal value,Units,Months,Total reserves in months of imports
+2014,-10.4,,Normal value,Units,Percent,Current account balance as a proportion of GDP (%) [17.13.1]
+2015,-6.9,,Normal value,Units,Percent,Current account balance as a proportion of GDP (%) [17.13.1]
+2016,-5.8,,Normal value,Units,Percent,Current account balance as a proportion of GDP (%) [17.13.1]
+2017,-7.0,,Normal value,Units,Percent,Current account balance as a proportion of GDP (%) [17.13.1]
+2018,-5.4,,Normal value,Units,Percent,Current account balance as a proportion of GDP (%) [17.13.1]
+2019,-5.2,,Normal value,Units,Percent,Current account balance as a proportion of GDP (%) [17.13.1]
+2020,-3.3,,Normal value,Units,Percent,Current account balance as a proportion of GDP (%) [17.13.1]
+2021,-4.6,,Normal value,Units,Percent,Current account balance as a proportion of GDP (%) [17.13.1]
+2022,-4.2,,Normal value,Units,Percent,Current account balance as a proportion of GDP (%) [17.13.1]
+2023,-2.5,,Normal value,Units,Percent,Current account balance as a proportion of GDP (%) [17.13.1]
+2024,-1.3,,Normal value,Units,Percent,Current account balance as a proportion of GDP (%) [17.13.1]
+2014,-3716.9,,Normal value,Units,USD,"Portfolio investment, net (Balance of Payments, current United States dollars) [17.13.1]"
+2015,155.1,,Normal value,Units,USD,"Portfolio investment, net (Balance of Payments, current United States dollars) [17.13.1]"
+2016,377.5,,Normal value,Units,USD,"Portfolio investment, net (Balance of Payments, current United States dollars) [17.13.1]"
+2017,731.1,,Normal value,Units,USD,"Portfolio investment, net (Balance of Payments, current United States dollars) [17.13.1]"
+2018,-649.0,,Normal value,Units,USD,"Portfolio investment, net (Balance of Payments, current United States dollars) [17.13.1]"
+2019,-458.1,,Normal value,Units,USD,"Portfolio investment, net (Balance of Payments, current United States dollars) [17.13.1]"
+2020,1313.3,,Normal value,Units,USD,"Portfolio investment, net (Balance of Payments, current United States dollars) [17.13.1]"
+2021,199.5,,Normal value,Units,USD,"Portfolio investment, net (Balance of Payments, current United States dollars) [17.13.1]"
+2022,706.7,,Normal value,Units,USD,"Portfolio investment, net (Balance of Payments, current United States dollars) [17.13.1]"
+2023,463.3,,Normal value,Units,USD,"Portfolio investment, net (Balance of Payments, current United States dollars) [17.13.1]"
+2024,129.0,,Normal value,Units,USD,"Portfolio investment, net (Balance of Payments, current United States dollars) [17.13.1]"
+2014,1.3,,Normal value,Units,Percent,"Foreign direct investment, net inflows, as a proportion of GDP (%) [17.13.1]"
+2015,0.9,,Normal value,Units,Percent,"Foreign direct investment, net inflows, as a proportion of GDP (%) [17.13.1]"
+2016,0.6,,Normal value,Units,Percent,"Foreign direct investment, net inflows, as a proportion of GDP (%) [17.13.1]"
+2017,1.6,,Normal value,Units,Percent,"Foreign direct investment, net inflows, as a proportion of GDP (%) [17.13.1]"
+2018,0.8,,Normal value,Units,Percent,"Foreign direct investment, net inflows, as a proportion of GDP (%) [17.13.1]"
+2019,0.5,,Normal value,Units,Percent,"Foreign direct investment, net inflows, as a proportion of GDP (%) [17.13.1]"
+2020,0.0,,Normal value,Units,Percent,"Foreign direct investment, net inflows, as a proportion of GDP (%) [17.13.1]"
+2021,0.4,,Normal value,Units,Percent,"Foreign direct investment, net inflows, as a proportion of GDP (%) [17.13.1]"
+2022,0.7,,Normal value,Units,Percent,"Foreign direct investment, net inflows, as a proportion of GDP (%) [17.13.1]"
+2023,0.5,,Normal value,Units,Percent,"Foreign direct investment, net inflows, as a proportion of GDP (%) [17.13.1]"
+2024,0.4,,Normal value,Units,Percent,"Foreign direct investment, net inflows, as a proportion of GDP (%) [17.13.1]"
+2014,36.9,,Normal value,Units,Percent,"Gross public sector debt, Central Government, as a proportion of GDP (%) [17.13.1]"
+2015,37.8,,Normal value,Units,Percent,"Gross public sector debt, Central Government, as a proportion of GDP (%) [17.13.1]"
+2016,42.2,,Normal value,Units,Percent,"Gross public sector debt, Central Government, as a proportion of GDP (%) [17.13.1]"
+2017,47.3,,Normal value,Units,Percent,"Gross public sector debt, Central Government, as a proportion of GDP (%) [17.13.1]"
+2018,49.1,,Normal value,Units,Percent,"Gross public sector debt, Central Government, as a proportion of GDP (%) [17.13.1]"
+2019,51.9,,Normal value,Units,Percent,"Gross public sector debt, Central Government, as a proportion of GDP (%) [17.13.1]"
+2020,58.4,,Normal value,Units,Percent,"Gross public sector debt, Central Government, as a proportion of GDP (%) [17.13.1]"
+2021,59.4,,Normal value,Units,Percent,"Gross public sector debt, Central Government, as a proportion of GDP (%) [17.13.1]"
+2022,57.6,,Normal value,Units,Percent,"Gross public sector debt, Central Government, as a proportion of GDP (%) [17.13.1]"
+2023,62.7,,Normal value,Units,Percent,"Gross public sector debt, Central Government, as a proportion of GDP (%) [17.13.1]"
+2024,62.0,,Normal value,Units,Percent,"Gross public sector debt, Central Government, as a proportion of GDP (%) [17.13.1]"
+2014,10.3,,Normal value,Units,Percent,External debt stocks as a proportion of GNI (%) [17.13.1]
+2015,46.2,,Normal value,Units,Percent,External debt stocks as a proportion of GNI (%) [17.13.1]
+2016,53.4,,Normal value,Units,Percent,External debt stocks as a proportion of GNI (%) [17.13.1]
+2017,60.3,,Normal value,Units,Percent,External debt stocks as a proportion of GNI (%) [17.13.1]
+2018,62.7,,Normal value,Units,Percent,External debt stocks as a proportion of GNI (%) [17.13.1]
+2019,64.1,,Normal value,Units,Percent,External debt stocks as a proportion of GNI (%) [17.13.1]
+2020,71.0,,Normal value,Units,Percent,External debt stocks as a proportion of GNI (%) [17.13.1]
+2021,70.6,,Normal value,Units,Percent,External debt stocks as a proportion of GNI (%) [17.13.1]
+2022,70.5,,Normal value,Units,Percent,External debt stocks as a proportion of GNI (%) [17.13.1]
+2023,80.6,,Normal value,Units,Percent,External debt stocks as a proportion of GNI (%) [17.13.1]
+2024,66.2,,Normal value,Units,Percent,External debt stocks as a proportion of GNI (%) [17.13.1]
+2015,15.2,,Normal value,Units,Percent,Bank capital to assets ratio (%) [17.13.1]
+2016,16.3,,Normal value,Units,Percent,Bank capital to assets ratio (%) [17.13.1]
+2017,14.1,,Normal value,Units,Percent,Bank capital to assets ratio (%) [17.13.1]
+2018,14.7,,Normal value,Units,Percent,Bank capital to assets ratio (%) [17.13.1]
+2019,14.8,,Normal value,Units,Percent,Bank capital to assets ratio (%) [17.13.1]
+2020,15.4,,Normal value,Units,Percent,Bank capital to assets ratio (%) [17.13.1]
+2021,16.6,,Normal value,Units,Percent,Bank capital to assets ratio (%) [17.13.1]
+2022,16.1,,Normal value,Units,Percent,Bank capital to assets ratio (%) [17.13.1]
+2023,21.9,,Normal value,Units,Percent,Bank capital to assets ratio (%) [17.13.1]
+2024,19.6,,Normal value,Units,Percent,Bank capital to assets ratio (%) [17.13.1]
+2015,3.5,,Normal value,Units,Percent,Broad money to total reserves ratio [17.13.1]
+2016,3.7,,Normal value,Units,Percent,Broad money to total reserves ratio [17.13.1]
+2017,4.0,,Normal value,Units,Percent,Broad money to total reserves ratio [17.13.1]
+2018,3.9,,Normal value,Units,Percent,Broad money to total reserves ratio [17.13.1]
+2019,3.8,,Normal value,Units,Percent,Broad money to total reserves ratio [17.13.1]
+2020,4.1,,Normal value,Units,Percent,Broad money to total reserves ratio [17.13.1]
+2021,4.0,,Normal value,Units,Percent,Broad money to total reserves ratio [17.13.1]
+2022,4.0,,Normal value,Units,Percent,Broad money to total reserves ratio [17.13.1]
+2023,4.2,,Normal value,Units,Percent,Broad money to total reserves ratio [17.13.1]
+2024,3.8,,Normal value,Units,Percent,Broad money to total reserves ratio [17.13.1]
+2014,16.1,,Normal value,Units,Percent,Annual broad money growth (%) [17.13.1]
+2015,14.1,,Normal value,Units,Percent,Annual broad money growth (%) [17.13.1]
+2016,4.0,,Normal value,Units,Percent,Annual broad money growth (%) [17.13.1]
+2017,9.6,,Normal value,Units,Percent,Annual broad money growth (%) [17.13.1]
+2018,10.1,,Normal value,Units,Percent,Annual broad money growth (%) [17.13.1]
+2019,5.6,,Normal value,Units,Percent,Annual broad money growth (%) [17.13.1]
+2020,13.2,,Normal value,Units,Percent,Annual broad money growth (%) [17.13.1]
+2021,6.1,,Normal value,Units,Percent,Annual broad money growth (%) [17.13.1]
+2022,7.5,,Normal value,Units,Percent,Annual broad money growth (%) [17.13.1]
+2023,19.9,,Normal value,Units,Percent,Annual broad money growth (%) [17.13.1]
+2024,1.0,,Normal value,Units,Percent,Annual broad money growth (%) [17.13.1]
+2014,149.7,,Normal value,Units,Index,"Annual inflation, consumer prices (%) [17.13.1]"
+2015,159.6,,Normal value,Units,Index,"Annual inflation, consumer prices (%) [17.13.1]"
+2016,86.7,,Normal value,Units,Index,"Annual inflation, consumer prices (%) [17.13.1]"
+2017,93.6,,Normal value,Units,Index,"Annual inflation, consumer prices (%) [17.13.1]"
+2018,98.0,,Normal value,Units,Index,"Annual inflation, consumer prices (%) [17.13.1]"
+2019,103.2,,Normal value,Units,Index,"Annual inflation, consumer prices (%) [17.13.1]"
+2020,108.7,,Normal value,Units,Index,"Annual inflation, consumer prices (%) [17.13.1]"
+2021,115.3,,Normal value,Units,Index,"Annual inflation, consumer prices (%) [17.13.1]"
+2022,124.2,,Normal value,Units,Index,"Annual inflation, consumer prices (%) [17.13.1]"
+2023,133.7,,Normal value,Units,Index,"Annual inflation, consumer prices (%) [17.13.1]"
+2024,139.7,,Normal value,Units,Index,"Annual inflation, consumer prices (%) [17.13.1]"
+2014,15.2,,Normal value,Units,Percent,Tax revenue as a proportion of GDP (%) [17.13.1]
+2015,14.8,,Normal value,Units,Percent,Tax revenue as a proportion of GDP (%) [17.13.1]
+2016,15.6,,Normal value,Units,Percent,Tax revenue as a proportion of GDP (%) [17.13.1]
+2017,15.9,,Normal value,Units,Percent,Tax revenue as a proportion of GDP (%) [17.13.1]
+2018,15.1,,Normal value,Units,Percent,Tax revenue as a proportion of GDP (%) [17.13.1]
+2019,16.5,,Normal value,Units,Percent,Tax revenue as a proportion of GDP (%) [17.13.1]
+2020,15.0,,Normal value,Units,Percent,Tax revenue as a proportion of GDP (%) [17.13.1]
+2021,15.2,,Normal value,Units,Percent,Tax revenue as a proportion of GDP (%) [17.13.1]
+2022,14.4,,Normal value,Units,Percent,Tax revenue as a proportion of GDP (%) [17.13.1]
+2023,14.6,,Normal value,Units,Percent,Tax revenue as a proportion of GDP (%) [17.13.1]
+2024,15.6,,Normal value,Units,Percent,Tax revenue as a proportion of GDP (%) [17.13.1]
+2014,3.8,,Normal value,Units,Percent,Annual growth of the general government final consumption expenditure (%) [17.13.1]
+2015,13.6,,Normal value,Units,Percent,Annual growth of the general government final consumption expenditure (%) [17.13.1]
+2016,5.3,,Normal value,Units,Percent,Annual growth of the general government final consumption expenditure (%) [17.13.1]
+2017,6.2,,Normal value,Units,Percent,Annual growth of the general government final consumption expenditure (%) [17.13.1]
+2018,7.0,,Normal value,Units,Percent,Annual growth of the general government final consumption expenditure (%) [17.13.1]
+2019,5.6,,Normal value,Units,Percent,Annual growth of the general government final consumption expenditure (%) [17.13.1]
+2020,3.1,,Normal value,Units,Percent,Annual growth of the general government final consumption expenditure (%) [17.13.1]
+2021,6.0,,Normal value,Units,Percent,Annual growth of the general government final consumption expenditure (%) [17.13.1]
+2022,8.1,,Normal value,Units,Percent,Annual growth of the general government final consumption expenditure (%) [17.13.1]
+2023,2.0,,Normal value,Units,Percent,Annual growth of the general government final consumption expenditure (%) [17.13.1]
+2024,0.4,,Normal value,Units,Percent,Annual growth of the general government final consumption expenditure (%) [17.13.1]
+2014,4.3,,Normal value,Units,Percent,Annual growth of households and NPISHs final consumption expenditure [17.13.1]
+2015,6.1,,Normal value,Units,Percent,Annual growth of households and NPISHs final consumption expenditure [17.13.1]
+2016,4.5,,Normal value,Units,Percent,Annual growth of households and NPISHs final consumption expenditure [17.13.1]
+2017,4.9,,Normal value,Units,Percent,Annual growth of households and NPISHs final consumption expenditure [17.13.1]
+2018,4.7,,Normal value,Units,Percent,Annual growth of households and NPISHs final consumption expenditure [17.13.1]
+2019,5.0,,Normal value,Units,Percent,Annual growth of households and NPISHs final consumption expenditure [17.13.1]
+2020,-1.8,,Normal value,Units,Percent,Annual growth of households and NPISHs final consumption expenditure [17.13.1]
+2021,6.1,,Normal value,Units,Percent,Annual growth of households and NPISHs final consumption expenditure [17.13.1]
+2022,2.3,,Normal value,Units,Percent,Annual growth of households and NPISHs final consumption expenditure [17.13.1]
+2023,7.5,,Normal value,Units,Percent,Annual growth of households and NPISHs final consumption expenditure [17.13.1]
+2024,6.9,,Normal value,Units,Percent,Annual growth of households and NPISHs final consumption expenditure [17.13.1]
+2014,1.9,,Normal value,Units,Percent,Annual growth of exports of goods and services (%) [17.13.1]
+2015,-2.2,,Normal value,Units,Percent,Annual growth of exports of goods and services (%) [17.13.1]
+2016,-6.6,,Normal value,Units,Percent,Annual growth of exports of goods and services (%) [17.13.1]
+2017,-1.0,,Normal value,Units,Percent,Annual growth of exports of goods and services (%) [17.13.1]
+2018,6.8,,Normal value,Units,Percent,Annual growth of exports of goods and services (%) [17.13.1]
+2019,-3.2,,Normal value,Units,Percent,Annual growth of exports of goods and services (%) [17.13.1]
+2020,9.5,,Normal value,Units,Percent,Annual growth of exports of goods and services (%) [17.13.1]
+2021,16.6,,Normal value,Units,Percent,Annual growth of exports of goods and services (%) [17.13.1]
+2022,20.8,,Normal value,Units,Percent,Annual growth of exports of goods and services (%) [17.13.1]
+2023,11.7,,Normal value,Units,Percent,Annual growth of exports of goods and services (%) [17.13.1]
+2024,7.5,,Normal value,Units,Percent,Annual growth of exports of goods and services (%) [17.13.1]
+2014,19.9,,Normal value,Units,Percent,Annual growth of the gross capital formation (%) [17.13.1]
+2015,0.1,,Normal value,Units,Percent,Annual growth of the gross capital formation (%) [17.13.1]
+2016,-3.9,,Normal value,Units,Percent,Annual growth of the gross capital formation (%) [17.13.1]
+2017,12.0,,Normal value,Units,Percent,Annual growth of the gross capital formation (%) [17.13.1]
+2018,-2.3,,Normal value,Units,Percent,Annual growth of the gross capital formation (%) [17.13.1]
+2019,5.3,,Normal value,Units,Percent,Annual growth of the gross capital formation (%) [17.13.1]
+2020,2.2,,Normal value,Units,Percent,Annual growth of the gross capital formation (%) [17.13.1]
+2021,13.4,,Normal value,Units,Percent,Annual growth of the gross capital formation (%) [17.13.1]
+2022,-2.6,,Normal value,Units,Percent,Annual growth of the gross capital formation (%) [17.13.1]
+2023,-5.5,,Normal value,Units,Percent,Annual growth of the gross capital formation (%) [17.13.1]
+2024,7.3,,Normal value,Units,Percent,Annual growth of the gross capital formation (%) [17.13.1]
+2014,11.3,,Normal value,Units,Percent,Annual growth of imports of goods and services (%) [17.13.1]
+2015,-4.6,,Normal value,Units,Percent,Annual growth of imports of goods and services (%) [17.13.1]
+2016,-7.4,,Normal value,Units,Percent,Annual growth of imports of goods and services (%) [17.13.1]
+2017,12.4,,Normal value,Units,Percent,Annual growth of imports of goods and services (%) [17.13.1]
+2018,1.4,,Normal value,Units,Percent,Annual growth of imports of goods and services (%) [17.13.1]
+2019,1.8,,Normal value,Units,Percent,Annual growth of imports of goods and services (%) [17.13.1]
+2020,-2.2,,Normal value,Units,Percent,Annual growth of imports of goods and services (%) [17.13.1]
+2021,23.1,,Normal value,Units,Percent,Annual growth of imports of goods and services (%) [17.13.1]
+2022,10.9,,Normal value,Units,Percent,Annual growth of imports of goods and services (%) [17.13.1]
+2023,1.3,,Normal value,Units,Percent,Annual growth of imports of goods and services (%) [17.13.1]
+2024,2.7,,Normal value,Units,Percent,Annual growth of imports of goods and services (%) [17.13.1]
+2014,5.4,,Normal value,Units,Percent,Annual GDP growth (%) [17.13.1]
+2015,5.7,,Normal value,Units,Percent,Annual GDP growth (%) [17.13.1]
+2016,4.2,,Normal value,Units,Percent,Annual GDP growth (%) [17.13.1]
+2017,3.8,,Normal value,Units,Percent,Annual GDP growth (%) [17.13.1]
+2018,5.6,,Normal value,Units,Percent,Annual GDP growth (%) [17.13.1]
+2019,5.1,,Normal value,Units,Percent,Annual GDP growth (%) [17.13.1]
+2020,-0.3,,Normal value,Units,Percent,Annual GDP growth (%) [17.13.1]
+2021,7.6,,Normal value,Units,Percent,Annual GDP growth (%) [17.13.1]
+2022,4.9,,Normal value,Units,Percent,Annual GDP growth (%) [17.13.1]
+2023,5.6,,Normal value,Units,Percent,Annual GDP growth (%) [17.13.1]
+2024,4.7,,Normal value,Units,Percent,Annual GDP growth (%) [17.13.1]
