@@ -20,7 +20,10 @@ site_dir: _site
 # -----------
 # This identifies a file containing the schema (possible fields) for metadata.
 # Currently this needs to be a prose.io config, and defaults to '_prose.yml'.
-schema_file: metadata_schema.yml
+schema_file: _prose.yml
+# -------------------------------------------------------------------
+#schema_file: metadata_schema.yml
+# ---------------------------------------------------------------------
 
 # Source directory
 # ----------------
@@ -39,15 +42,20 @@ src_dir: ''
 # folder. Further, each item can have any/all of the parameters that class uses.
 # The defaults below show what is used when this is omitted.
 inputs:
-  - class: InputCsvData
-    # This describes the data files, relative to the "src_dir" indicated above.
-    path_pattern: data/*-*.csv
-  - class: InputYamlMeta
-    path_pattern: indicator-config/*-*.yml
-    git: false
-  - class: InputYamlMeta
+  - class: InputSdmxMl_Multiple
+    path_pattern: sdmx-data/*.xml
+    dimension_map:
+      UNIT_MEASURE: 'Units'
+      SERIES: 'Series'
+      REF_AREA|RW: ''
+    drop_dimensions:
+      - SOURCE_DETAIL
+    dsd: 'RWA_2025_SDG DSD.xml'
+    import_translation_keys: true
+    import_codes: true
+  - class: InputYamlMdMeta
     # This describes the meta files, relative to the "src_dir" indicated above.
-    path_pattern: meta/*-*.yml
+    path_pattern: meta/*-*.md
     # This specifies whether or not to use Git to calculate the "last updated"
     # dates for data files.
     git: true
@@ -57,8 +65,29 @@ inputs:
     # need to change this setting. It is intended for sites where the data needs
     # to be "built" before being processed by sdg-build.
     git_data_dir: data
-  - class: InputSdmxMeta
-    meta_suffix: __GLOBAL
+# ---------------------------------------------------------------------------------------
+#inputs:
+#  - class: InputCsvData
+    # This describes the data files, relative to the "src_dir" indicated above.
+#    path_pattern: data/*-*.csv
+#  - class: InputYamlMeta
+#    path_pattern: indicator-config/*-*.yml
+#    git: false
+#  - class: InputYamlMeta
+    # This describes the meta files, relative to the "src_dir" indicated above.
+#    path_pattern: meta/*-*.yml
+    # This specifies whether or not to use Git to calculate the "last updated"
+    # dates for data files.
+#    git: true
+    # This specifies an alternate folder to look in for Git-versioned data files,
+    # when calculating the "last updated" dates for data files. This defaults to
+    # "data" (the folder where the data files actually exist.) Most sites will not
+    # need to change this setting. It is intended for sites where the data needs
+    # to be "built" before being processed by sdg-build.
+#    git_data_dir: data
+#  - class: InputSdmxMeta
+#    meta_suffix: __GLOBAL
+# -----------------------------------------------------------------------------------------------    
 
 # Translations
 # ------------
@@ -70,13 +99,26 @@ inputs:
 # project. Further, each item can have any/all of the parameters that class uses.
 # The defaults below show what is used when this is omitted.
 translations:
-  # This pulls in translations from a Git repository.
   - class: TranslationInputSdgTranslations
     source: https://github.com/open-sdg/sdg-translations.git
-    tag: 2.4.0
+    tag: 2.3.0
   # This pulls in translations from a local 'translations' folder.
   - class: TranslationInputYaml
     source: translations
+  # This pulls in translations from DSD
+  - class: TranslationInputSdmx
+    source: 'RWA_2025_SDG DSD.xml'
+    
+#--------------------------------------------------------------------------------------------
+#translations:
+  # This pulls in translations from a Git repository.
+#  - class: TranslationInputSdgTranslations
+#    source: https://github.com/open-sdg/sdg-translations.git
+#    tag: 2.4.0
+  # This pulls in translations from a local 'translations' folder.
+#  - class: TranslationInputYaml
+#    source: translations
+# ------------------------------------------------------------------------------------------------    
 
 # Reporting status extra fields
 # -----------------------------
@@ -92,12 +134,14 @@ reporting_status_extra_fields: []
 # below and adjust if you would like to use the Open SDG mapping functionality.
 # Note that the GeoJSON files can either be remote (as in the example below) or
 # local, relative to the src_dir specified above.
-#map_layers:
-#  - geojson_file: https://geoportal1-ons.opendata.arcgis.com/datasets/4fcca2a47fed4bfaa1793015a18537ac_4.geojson
-#    name_property: rgn17nm
-#    id_property: rgn17cd
-#    output_subfolder: regions
-#    filename_prefix: indicator_
+map_layers:
+  - geojson_file: https://geoportal1-ons.opendata.arcgis.com/datasets/4fcca2a47fed4bfaa1793015a18537ac_4.geojson
+    name_property: rgn17nm
+    id_property: rgn17cd
+    output_subfolder: regions
+    filename_prefix: indicator_
+    exclude_columns:
+      - REF_AREA
 
 # Documentation settings
 # ----------------------
@@ -121,18 +165,35 @@ docs_intro: This is a list of examples of endpoints and output that are
 
 # This controls the metadata report which is part of the automatic documentation.
 # More info can be found at https://open-sdg.readthedocs.io/en/latest/data-configuration/#docs_metadata_fields
-docs_metadata_fields:
-    - key: reporting_status
-      label: Reporting status
-    - key: SDG_CUSTODIAN_AGENCIES__GLOBAL
-      label: UN custodian agency
-    - key: data_non_statistical
-      label: Non-statistical
-    - key: data_show_map
-      label: Show map
-    - key: national_geographical_coverage
-      label: Geographical coverage
-    - key: computation_units
-      label: Units
-    - key: graph_type
-      label: Graph type
+# docs_metadata_fields:
+#     - key: reporting_status
+#       label: Reporting status
+#     - key: SDG_CUSTODIAN_AGENCIES__GLOBAL
+#       label: UN custodian agency
+#     - key: data_non_statistical
+#       label: Non-statistical
+#     - key: data_show_map
+#       label: Show map
+#     - key: national_geographical_coverage
+#       label: Geographical coverage
+#     - key: computation_units
+#       label: Units
+#     - key: graph_type
+#       label: Graph type
+
+
+
+# Git
+# ---
+# This specifies whether or not to use Git dates to calculate the "last updated"
+# date for data files.
+git: true
+
+# Git Data Director
+# -----------------
+# This specifies an alternate folder to look in for Git-versioned data files,
+# when calculating the "last updated" dates for data files. This defaults to
+# "data" (the folder where the data files actually exist.) Most sites will not
+# need to change this setting. It is intended for sites where the data needs
+# to be converted/processed/etc in some way before being processed by sdg-build.
+git_data_dir: data
