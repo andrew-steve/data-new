@@ -39,18 +39,33 @@ src_dir: ''
 # folder. Further, each item can have any/all of the parameters that class uses.
 # The defaults below show what is used when this is omitted.
 inputs:
-  - class: InputCsvData
-    # This describes the data files, relative to the "src_dir" indicated above.
-    path_pattern: data/*-*.csv
+  - class: InputSdmxMl_Structure
+    source: sdmx-data/*.xml
+    dsd: 'RWA_2025_SDG DSD.xml'
+    import_series_attributes: true
+    import_observation_attributes: true
+    import_codes: true
+    indicator_id_map:
+      my_custom_code381: 3-8-1
+      my_custom_code411a: 4-1-1
+      my_custom_code411b: 4-1-4
+    drop_singleton_dimensions: false
+    drop_dimensions:
+      - FREQ
+      - REPORTING_TYPE
+      - NATURE
+      - TIME_PERIOD
   - class: InputYamlMeta
-    path_pattern: indicator-config/*-*.yml
+    path_pattern: indicator-config/*.yml
     git: false
-  - class: InputYamlMeta
+  - class: InputWordMeta
+    path_pattern: meta/*.docm
+  # - class: InputYamlMeta
     # This describes the meta files, relative to the "src_dir" indicated above.
-    path_pattern: meta/*-*.yml
+    # path_pattern: meta/*-*.yml
     # This specifies whether or not to use Git to calculate the "last updated"
     # dates for data files.
-    git: true
+    # git: true
     # This specifies an alternate folder to look in for Git-versioned data files,
     # when calculating the "last updated" dates for data files. This defaults to
     # "data" (the folder where the data files actually exist.) Most sites will not
@@ -77,6 +92,8 @@ translations:
   # This pulls in translations from a local 'translations' folder.
   - class: TranslationInputYaml
     source: translations
+  - class: TranslationInputSdmx
+    source: 'RWA_2025_SDG DSD.xml'
 
 # Reporting status extra fields
 # -----------------------------
